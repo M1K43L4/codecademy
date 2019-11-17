@@ -20,3 +20,11 @@ print("This is " + 'a string')
 #strings that don't raise a syntax error
 #strings with no quotes raise a name error. Python thinks you are running a
 #command like the 'print' command, and doesn't know what it means.
+
+#can do multi line strings
+
+print("""
+	Hello
+	World
+	!
+""")#the lines holding the quotes will print blank lines!
